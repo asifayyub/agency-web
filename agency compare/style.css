@@ -1,0 +1,170 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4
+}
+
+.container{
+    width: 60%;
+    /* margin: auto; */
+    margin-left: 10%;
+    
+   
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 5px;
+    height: 70px;
+    border-bottom: 3px solid #ffc600; 
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px;
+}
+
+header .branding{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 22px;
+    /* margin-left: 50%; */
+    /* position: relative; */
+    /* left: 15px;   */
+    margin-right: -100px;
+}
+
+header .highlight{
+    color: #ffc600;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ffc600;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 500px;
+    background-image: url('./images/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px -500px;
+    text-align: center;
+    color: white;
+    /* margin-top: -19px; */
+    padding-top: 12px;
+    /* border: 1px solid rgb(8, 8, 8); */
+    /* border-radius: 20px; */
+    
+}
+
+#boxes{
+    margin-top: 150px;
+    margin-right: -400px;
+}
+
+#boxes .box{
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+    width: 30%;
+    /* padding: 10px; */
+    
+}
+
+#boxes .box img{
+    width: 100px;
+    /* margin: auto; */
+      
+}
+
+#boxes .box img:hover{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background: #35424a;
+    text-align: center;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+    margin: auto;
+}
+
+#main-col2{
+    float: left;
+    width: 65%;
+    /* margin: 22px; */
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    
+}
+
+.dark{
+    padding: 20px;
+    background: #35424a;
+    color: white;
+    margin: 20px 1px;
+    position: relative;
+    right: -100px;  
+    padding-bottom: 86px;
+    /* padding-right: 40px */
+    margin-right: -100px;
+    
+}
+
+ .dark:hover{
+        color: black;
+        background-color: #ffc600;}
+
+ 
+
+ .title{
+     margin: 2% 9.2%;}
+
+/* .title2{
+    float: left;
+    width: 30%; */
+    
+/* } */
+
+.form-s{
+
+    padding: 15px;
+    border: 2px solid rgb(226, 223, 223);
+    background-color: #dadcdd;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
